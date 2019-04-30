@@ -9,6 +9,10 @@
 /* Global*/
 body {
     background-color: #020122 !important;
+    color: #fff;
+}
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    color: #fff;
 }
 .mb-0,
 section:not(.text-light) .nav-link, footer:not(.text-light) .nav-link {

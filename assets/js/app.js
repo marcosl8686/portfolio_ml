@@ -24,8 +24,7 @@ $(document).ready(function(){
           personalSKills: {
               language: ["Spanish","Korean","English"],
               fastLearner: "enthusiastic about gaining knowledge and new insights",
-              highlyMotivated: "assertive individual who takes initiative with minimal supervision",
-              leadership: "recognized by various employers. Achieved manager position in every job he worked for"
+              highlyMotivated: "assertive individual who takes initiative with minimal supervision"
           }
       };
       /* Reasons Why Marcos its a Great Developer: .*/
