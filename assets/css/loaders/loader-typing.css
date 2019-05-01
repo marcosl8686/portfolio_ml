@@ -6,7 +6,7 @@
 }
 body > div.loader{
         position: fixed;
-        background: white;
+        background: #020122;
         width: 100%;
         height: 100%;
         z-index: 1071;
@@ -40,20 +40,20 @@ body.loaded > div.loader{
 
 @keyframes typing {
   0% {
-    background-color: rgba(100,100,100, 1);
-    box-shadow: 12px 0px 0px 0px rgba(100,100,100, 0.2),
-      24px 0px 0px 0px rgba(100,100,100, 0.2);
+    background-color: rgba(255,255,255, 1);
+    box-shadow: 12px 0px 0px 0px rgba(255,255,255, 0.2),
+      24px 0px 0px 0px rgba(255,255,255, 0.2);
   }
 
   25% {
-    background-color: rgba(100,100,100, 0.4);
-    box-shadow: 12px 0px 0px 0px rgba(100,100,100, 2),
-      24px 0px 0px 0px rgba(100,100,100, 0.2);
+    background-color: rgba(255,255,255, 0.4);
+    box-shadow: 12px 0px 0px 0px rgba(255,255,255, 2),
+      24px 0px 0px 0px rgba(255,255,255, 0.2);
   }
 
   75% {
-    background-color: rgba(100,100,100, 0.4);
-    box-shadow: 12px 0px 0px 0px rgba(100,100,100, 0.2),
-      24px 0px 0px 0px rgba(100,100,100, 1);
+    background-color: rgba(255,255,255, 0.4);
+    box-shadow: 12px 0px 0px 0px rgba(255,255,255, 0.2),
+      24px 0px 0px 0px rgba(255,255,255, 1);
   }
 }
