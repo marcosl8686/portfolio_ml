@@ -6,21 +6,30 @@
 /*  in your page by adding a reference to assets/css/custom.css in the head of each page.
 /*
 */
+
+/* Font Colors */
+body .text-light {
+    color: #868686 !important;
+}
+.text-light a:not(.btn), .text-light h1, .text-light h2, .text-light h3, .text-light h4, .text-light h5, .text-light h6, .text-light .h1, .text-light .h2, .text-light .h3, .text-light .h4, .text-light .h5, .text-light .h6, .text-light .display-1, .text-light .display-2, .text-light .display-3, .text-light .display-4 {
+    color: #333333 !important;
+}
 /* Global*/
 
+
 body {
-    background-color: #020122 !important;
-    color: #fff;
+    background-color: #ffffff !important;
+    color: #333;
 }
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
-    color: #fff;
+    color: #333;
 }
 .flickity-page-dots .dot {
     background: #f1f1f1;
 }
 .mb-0,
 section:not(.text-light) .nav-link, footer:not(.text-light) .nav-link {
-    color: #fff !important;
+    color: #333 !important;
 }
 .navbar[data-sticky="top"] {
     opacity: 0;
@@ -33,9 +42,10 @@ section:not(.text-light) .nav-link, footer:not(.text-light) .nav-link {
 .navbar[data-sticky="top"].scrolled {
     opacity: 1;
 }
+
 /* 01 - Hero */
 .main_hero {
-    height: 90vh;
+    height: 100vh;
     position: relative;
 }
 .main_hero .container.mt-lg-6 {
@@ -51,13 +61,14 @@ section:not(.text-light) .nav-link, footer:not(.text-light) .nav-link {
 /* 02 - About */
 #about {
     padding: 0;
+    height: 75vh;
 }
 #ace_editor {
-    height: 70vh;
+    height: 43rem;
     border-radius: 1rem;
 }
 .editor_wrapper {
-    background-color: #2A2A72;
+    background-color: #ffffff;
     padding: 12px;
     border-radius: 10px;
 }
