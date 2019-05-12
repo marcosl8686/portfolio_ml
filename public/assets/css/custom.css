@@ -49,6 +49,13 @@ section:not(.text-light) .nav-link, footer:not(.text-light) .nav-link {
 #showNav nav.navbar {
     background-color: rgba(255,255,255,0.7);
 }
+
+@media (min-width: 576px) {
+    .modal-dialog {
+        max-width: 80%;
+        margin: 1.75rem auto;
+    }
+}
 /* 01 - Hero */
 .main_hero {
     height: 100vh;
@@ -110,4 +117,9 @@ section:not(.text-light) .nav-link, footer:not(.text-light) .nav-link {
 }
 .image_box_3 {
     background-color: #e056fd;
+}
+
+/* footer */
+#footer.text-light {
+    color: #ffffff !important;
 }
