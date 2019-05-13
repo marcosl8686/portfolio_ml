@@ -35,7 +35,10 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 section:not(.text-light) .nav-link, footer:not(.text-light) .nav-link {
     color: #333 !important;
 }
-
+.navbar {
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+}
 .navbar-dark .navbar-brand{
     color: #333333;
 }
@@ -52,10 +55,12 @@ section:not(.text-light) .nav-link, footer:not(.text-light) .nav-link {
 
 @media (min-width: 576px) {
     .modal-dialog {
-        max-width: 80%;
+        max-width: 60%;
         margin: 1.75rem auto;
     }
 }
+
+
 /* 01 - Hero */
 .main_hero {
     height: 100vh;
