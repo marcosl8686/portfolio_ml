@@ -123,6 +123,15 @@ section:not(.text-light) .nav-link, footer:not(.text-light) .nav-link {
 .image_box_3 {
     background-color: #e056fd;
 }
+.modal-body .text-center h2 {
+    font-size: 3rem;
+}
+.modal-body .dot {
+    background: #333;
+}
+.modal-body .close {
+    font-size: 3rem;
+}
 
 /* footer */
 #footer.text-light {
