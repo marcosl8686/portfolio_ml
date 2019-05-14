@@ -126,8 +126,8 @@ section:not(.text-light) .nav-link, footer:not(.text-light) .nav-link {
 .modal-body .text-center h2 {
     font-size: 3rem;
 }
-.modal-body .dot {
-    background: #333;
+.dot {
+    background: #333 !important;
 }
 .modal-body .close {
     font-size: 3rem;
@@ -136,4 +136,7 @@ section:not(.text-light) .nav-link, footer:not(.text-light) .nav-link {
 /* footer */
 #footer.text-light {
     color: #ffffff !important;
+}
+li.d-flex {
+    align-items: center;
 }
