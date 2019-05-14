@@ -90,4 +90,8 @@ $(document).ready(function(){
           e.preventDefault();
           scrollTo('#about');
       });
+      $('#contact').on('click', function(e){
+        e.preventDefault();
+        scrollTo('#footer');
+    });
 });

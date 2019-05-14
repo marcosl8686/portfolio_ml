@@ -56,7 +56,7 @@ section:not(.text-light) .nav-link, footer:not(.text-light) .nav-link {
 @media (min-width: 576px) {
     .modal-dialog {
         max-width: 60%;
-        margin: 1.75rem auto;
+        margin: 4rem auto;
     }
 }
 
@@ -131,6 +131,12 @@ section:not(.text-light) .nav-link, footer:not(.text-light) .nav-link {
 }
 .modal-body .close {
     font-size: 3rem;
+}
+.modal-body .o-hidden {
+    padding: 0;
+}
+.modal-body figure {
+    margin: 0
 }
 
 /* footer */
